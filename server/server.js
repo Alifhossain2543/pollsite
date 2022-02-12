@@ -18,7 +18,7 @@ const options = {
 //   useCreateIndex: true,
 }
 mongoose.connect(
-  `mongodb+srv://me-using_new:b040oG9O5fqHJl8P@cluster0.6b5lg.mongodb.net/surveyapp?authSource=admin&replicaSet=atlas-kjxazy-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true`,
+  `mongodb+srv://me-using_new:b040oG9O5fqHJl8P@cluster0.6b5lg.mongodb.net/user-pass`,
   options
 )
 mongoose.connection.once("open", () => console.log("Connected to MongoDB"))
