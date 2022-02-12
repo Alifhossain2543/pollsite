@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.headerBtn {
+    @apply p-[8px] text-center rounded-full bg-secondary shadow-lg cursor-pointer active:scale-[0.9] transition-all text-[15px] text-text-color-dark font-extrabold hover:bg-text-color-dark hover:text-secondary hover:border-secondary hover:border-[1px]
+}
+
+.norBtn {
+    @apply text-text-color-dark p-[10px] rounded-full shadow-xl hover:text-primary-dark font-extrabold bg-primary-light disabled:bg-text-color-light disabled:hover:text-text-color-dark hover:bg-text-color-dark active:scale-[0.9] flex gap-2 items-center justify-center
+               mt-[10px]
+}
